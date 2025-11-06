@@ -12,6 +12,7 @@ services:
       - mysql-data:/var/lib/mysql   # volume added here
 
   backend:
+    image: mnck/devops-exam-2300031371-backend:latest
     container_name: springboot
     build:
       context: ./backend-springbootapp-31371
@@ -23,6 +24,7 @@ services:
     restart: on-failure
 
   frontend:
+    image: mnck/devops-exam-2300031371-frontend:latest
     container_name: react
     build:
       context: ./frontend-reactapp-31371
