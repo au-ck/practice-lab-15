@@ -11,7 +11,7 @@
 	<groupId>com.klef</groupId>
 	<artifactId>backend-springbootapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>backend-springbootapp</name>
 	<description>Spring Boot Backend Project</description>
 	<url/>
@@ -64,7 +64,6 @@
 	</dependencies>
 
 	<build>
-	<finalName>labexam</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
